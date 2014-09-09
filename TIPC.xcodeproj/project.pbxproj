@@ -12,6 +12,7 @@
 		4FFFE40819BD3A46000FF658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE40619BD3A46000FF658 /* Main.storyboard */; };
 		4FFFE40A19BD3A46000FF658 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFFE40919BD3A46000FF658 /* Images.xcassets */; };
 		4FFFE41619BD3A46000FF658 /* TIPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFFE41519BD3A46000FF658 /* TIPCTests.swift */; };
+		4FFFE42019BD4826000FF658 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFFE41F19BD4826000FF658 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		4FFFE40F19BD3A46000FF658 /* TIPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFFE41419BD3A46000FF658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FFFE41519BD3A46000FF658 /* TIPCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIPCTests.swift; sourceTree = "<group>"; };
+		4FFFE41F19BD4826000FF658 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		4FFFE3FF19BD3A46000FF658 /* TIPC */ = {
 			isa = PBXGroup;
 			children = (
+				4FFFE42119BD4844000FF658 /* ViewControllers */,
 				4FFFE40219BD3A46000FF658 /* AppDelegate.swift */,
 				4FFFE40419BD3A46000FF658 /* ViewController.swift */,
 				4FFFE40619BD3A46000FF658 /* Main.storyboard */,
@@ -107,6 +110,14 @@
 				4FFFE41419BD3A46000FF658 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FFFE42119BD4844000FF658 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FFFE41F19BD4826000FF658 /* SettingsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 			files = (
 				4FFFE40519BD3A46000FF658 /* ViewController.swift in Sources */,
 				4FFFE40319BD3A46000FF658 /* AppDelegate.swift in Sources */,
+				4FFFE42019BD4826000FF658 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
